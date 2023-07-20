@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-20T13:05:07 IST" name="Visual Crossing Test Suite" finished-at="2023-07-20T13:06:04 IST" duration-ms="56875">
+    <groups>
+    </groups>
+    <test started-at="2023-07-20T13:05:07 IST" name="Visual Crossing Test" finished-at="2023-07-20T13:06:04 IST" duration-ms="56875">
+      <class name="api.testcases.GetEndpointTest">
+        <test-method signature="testGetEndpoint(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.GetEndpointTest@22fcf7ab]" started-at="2023-07-20T13:05:58 IST" name="testGetEndpoint" data-provider="getVCDataFromExcel" finished-at="2023-07-20T13:06:02 IST" duration-ms="4366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Calicut]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.2588]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[75.7809]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEndpoint -->
+        <test-method signature="testGetEndpoint(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.testcases.GetEndpointTest@22fcf7ab]" started-at="2023-07-20T13:06:02 IST" name="testGetEndpoint" data-provider="getVCDataFromExcel" finished-at="2023-07-20T13:06:04 IST" duration-ms="1637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kozhikode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.2588]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[75.7809]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEndpoint -->
+      </class> <!-- api.testcases.GetEndpointTest -->
+      <class name="ui.vc.testcases.WeatherDataSearchPageTest">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ui.vc.testcases.WeatherDataSearchPageTest@b3ca52e]" started-at="2023-07-20T13:05:22 IST" name="initialise" finished-at="2023-07-20T13:05:31 IST" duration-ms="9136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="verifyCorrectPageforSearch()[pri:1, instance:ui.vc.testcases.WeatherDataSearchPageTest@b3ca52e]" started-at="2023-07-20T13:05:31 IST" name="verifyCorrectPageforSearch" finished-at="2023-07-20T13:05:31 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectPageforSearch -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:ui.vc.testcases.WeatherDataSearchPageTest@b3ca52e]" started-at="2023-07-20T13:05:31 IST" name="closeMethod" finished-at="2023-07-20T13:05:32 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ui.vc.testcases.WeatherDataSearchPageTest@b3ca52e]" started-at="2023-07-20T13:05:32 IST" name="initialise" finished-at="2023-07-20T13:05:38 IST" duration-ms="6583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="valideateNavigationToHistoryPage()[pri:2, instance:ui.vc.testcases.WeatherDataSearchPageTest@b3ca52e]" started-at="2023-07-20T13:05:38 IST" name="valideateNavigationToHistoryPage" finished-at="2023-07-20T13:05:40 IST" duration-ms="1732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valideateNavigationToHistoryPage -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:ui.vc.testcases.WeatherDataSearchPageTest@b3ca52e]" started-at="2023-07-20T13:05:40 IST" name="closeMethod" finished-at="2023-07-20T13:05:40 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+      </class> <!-- ui.vc.testcases.WeatherDataSearchPageTest -->
+      <class name="ui.vc.testcases.WeatherHistoryPageTest">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ui.vc.testcases.WeatherHistoryPageTest@45c7e403]" started-at="2023-07-20T13:05:40 IST" name="initialise" finished-at="2023-07-20T13:05:48 IST" duration-ms="7984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="verifyCorrectPageforHistory()[pri:1, instance:ui.vc.testcases.WeatherHistoryPageTest@45c7e403]" started-at="2023-07-20T13:05:48 IST" name="verifyCorrectPageforHistory" finished-at="2023-07-20T13:05:48 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectPageforHistory -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:ui.vc.testcases.WeatherHistoryPageTest@45c7e403]" started-at="2023-07-20T13:05:48 IST" name="closeMethod" finished-at="2023-07-20T13:05:48 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ui.vc.testcases.WeatherHistoryPageTest@45c7e403]" started-at="2023-07-20T13:05:48 IST" name="initialise" finished-at="2023-07-20T13:05:56 IST" duration-ms="7473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="validateMinMaxTempPrecip()[pri:2, instance:ui.vc.testcases.WeatherHistoryPageTest@45c7e403]" started-at="2023-07-20T13:05:56 IST" name="validateMinMaxTempPrecip" finished-at="2023-07-20T13:05:57 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMinMaxTempPrecip -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:ui.vc.testcases.WeatherHistoryPageTest@45c7e403]" started-at="2023-07-20T13:05:57 IST" name="closeMethod" finished-at="2023-07-20T13:05:57 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+      </class> <!-- ui.vc.testcases.WeatherHistoryPageTest -->
+      <class name="ui.vc.testcases.HomePageTest">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ui.vc.testcases.HomePageTest@7dcf94f8]" started-at="2023-07-20T13:05:07 IST" name="initialise" finished-at="2023-07-20T13:05:15 IST" duration-ms="7408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="validateHomePageTitle()[pri:1, instance:ui.vc.testcases.HomePageTest@7dcf94f8]" started-at="2023-07-20T13:05:15 IST" name="validateHomePageTitle" finished-at="2023-07-20T13:05:15 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitle -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:ui.vc.testcases.HomePageTest@7dcf94f8]" started-at="2023-07-20T13:05:15 IST" name="closeMethod" finished-at="2023-07-20T13:05:15 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="initialise()[pri:0, instance:ui.vc.testcases.HomePageTest@7dcf94f8]" started-at="2023-07-20T13:05:15 IST" name="initialise" finished-at="2023-07-20T13:05:21 IST" duration-ms="5899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="weatherAPIClickTest()[pri:2, instance:ui.vc.testcases.HomePageTest@7dcf94f8]" started-at="2023-07-20T13:05:21 IST" name="weatherAPIClickTest" finished-at="2023-07-20T13:05:22 IST" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weatherAPIClickTest -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:ui.vc.testcases.HomePageTest@7dcf94f8]" started-at="2023-07-20T13:05:22 IST" name="closeMethod" finished-at="2023-07-20T13:05:22 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+      </class> <!-- ui.vc.testcases.HomePageTest -->
+    </test> <!-- Visual Crossing Test -->
+  </suite> <!-- Visual Crossing Test Suite -->
+</testng-results>

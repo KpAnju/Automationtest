@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Visual Crossing Test Suite">
+
+	<listeners>
+		<listener class-name="vc.util.ExtentReportGenerator" />
+	</listeners>
+
+
+	<test name="Visual Crossing Test">
+		<classes>
+			<class name="ui.vc.testcases.HomePageTest"></class>
+			<class name="ui.vc.testcases.WeatherDataSearchPageTest"></class>
+			<class name="ui.vc.testcases.WeatherHistoryPageTest"></class>
+			<class name="api.testcases.GetEndpointTest"></class>
+
+		</classes>
+	</test>
+</suite>
