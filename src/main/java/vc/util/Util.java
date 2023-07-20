@@ -20,13 +20,9 @@ public class Util extends TestBase {
 	public static int PAGE_TIMEOUT = 20;
 	public static int IMPLICIT_WAIT = 10;
 
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\2kris\\eclipse-workspace\\"
-			+ "VisualCrossingTest2\\src\\main\\java\\vc\\testdata\\VisualCrossingTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = System.getProperty("user.dir")+
+			"\\src\\main\\java\\vc\\testdata\\VisualCrossingTestData.xlsx";
 
-
-	
-	
-	
 	static Workbook book;
 	static Sheet sheet;
 
